@@ -1,0 +1,18 @@
+import {Text, View, Image} from 'react-native';
+import React from 'react';
+
+import {
+  DrawerContentScrollView,
+  DrawerItemList,
+} from '@react-navigation/drawer';
+
+export default function DrawerItems(props) {
+  return (
+    <View
+      style={{
+        flex: 1,
+        paddingVertical: 20,
+        margin: 0,
+      }}></View>
+  );
+}
